@@ -16,6 +16,7 @@ header {
 }
 
 nav {
+  height: 70px;
   width: 1024px;
   display: flex;
   justify-content: space-between;
@@ -28,7 +29,6 @@ nav .logo {
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
 }
 
 nav ul li {
