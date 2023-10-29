@@ -73,7 +73,6 @@ h2 {
   /*padding-bottom: 8px;*/
   position: relative;
 }
-
 h2::after {
   content: '';
   display: block;
@@ -110,11 +109,6 @@ h2::after {
 .portfolio-box:nth-child(1), .portfolio-box:nth-child(2), .portfolio-box:nth-child(4), .portfolio-box:nth-child(5) {
   margin-right: 10px;
 }
-
-
-
-
-
 .portfolio-box:nth-child(1) {
   background-image: url(img/sketch.jpg);
 }
@@ -133,6 +127,9 @@ h2::after {
 .portfolio-box:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
 }
+
+
+
 
 
 
