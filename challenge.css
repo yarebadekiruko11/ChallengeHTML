@@ -197,11 +197,43 @@ h4 {
   margin: 0 auto;
 }
 
+#Contact {
+  display: flex;
+  justify-content: center;
+}
+.Contactcontent {
+  width: 800px;
+}
 
 h5 {
   font-size: 20px;
   margin-bottom: 5px;
 }
+.contactIcon {
+  font-size: 50px;
+}
+.contactIcon:nth-child(2), .contactIcon:nth-child(3) {
+  margin-right: 20px;
+}
+
+.contactbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.MailTel {
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+}
+.SNS {
+  width: 400px;
+  text-align: center;
+}
+
 
 
 
