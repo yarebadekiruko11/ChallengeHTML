@@ -131,6 +131,7 @@ h2::after {
   background-image: url(img/webcamp-mother.png);
 }
 
+/*Featureセクション*/
 .Strengthsecion {
   display: flex;
   flex-wrap: wrap;
@@ -224,19 +225,24 @@ h5 {
 
 .MailTel {
   width: 400px;
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
-
+}
+.mailbox {
+  display: inline-block;
+}
+.boxtext {
+  color: #000000;
+  border-bottom: solid black;
+}
+.tel {
+  margin-top: 20px;
 }
 .SNS {
   width: 400px;
   text-align: center;
 }
-
-
-
-
 
 footer {
   width: 100%;
