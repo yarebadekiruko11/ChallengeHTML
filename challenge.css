@@ -275,26 +275,34 @@ footer {
  }
 
   /* ハンバーガーメニューのボタン */
- header {
+.sp-menu {
    height: 50px;
+   margin: 0 auto;
  }
  #sp-menu__check {
    display: none;
  }
+
+ .sp-menu__content {
+   width: 90%;
+   height: 50px;
+   position: relative;
+ }
+
+
  .sp-menu__box {
-   position: fixed;  /* 位置を固定 */
-   top: 5px;  /* 最上部 */
+   position: absolute;  /* 位置を固定 */
+   top: 5px;  /* 最上部
    right: 5px;  /* 右端 */
+   bottom: 5px;
    /* 中の要素を上下中央寄せ */
    display: flex;
    justify-content: center;
    align-items: center;
-   /* サイズ指定 */
+
+    /*サイズ指定 */
    height: 36px;
    width: 36px;
-   /* 最前面にする */
-   z-index: 100;
-   background-color: #ec715f;
    border: 1px solid #FAFAFA;
  }
  /* メニューの白線を疑似要素を使って3本作成 */
@@ -324,40 +332,34 @@ footer {
  }
 
  /* スマホ用メニュー */
-.sp-menu__content {
-  /* 絶対位置で指定   */
-  position: fixed;
-  /* 画面全体に表示 */
-  width: 50%;
-  height: 50%;
+/*.sp-menu__content {*/
+/*  width: 90%;*/
+/*  height: 50px;*/
   /* 開始位置は左上隅 */
-  top: 0;
-  left: 0;
+/*  margin: 0 auto;*/
   /* 前面に表示するがハンバーガーボタンよりは背後 */
-  z-index: 90;
-  background-color: #3584bb;
-}
+  /*z-index: 90;*/
+  /*background-color: #3584bb;*/
+/*}*/
 /* スマホ用メニューのリスト */
-.sp-menu__list {
-  padding: 70px 10px 0;
-}
+/*.sp-menu__list {*/
+/*  padding: 70px 10px 0;*/
+/*}*/
 /* スマホ用メニュー項目 */
-.sp-menu__item {
-  border-bottom: solid 1px #ffffff;
-  list-style: none;
-}
+/*.sp-menu__item {*/
+/*  border-bottom: solid 1px #ffffff;*/
+/*  list-style: none;*/
+/*}*/
 /* スマホ用メニュー項目のリンク */
-.sp-menu__link {
-  display: block;
-  width: 100%;
-  font-size: 15px;
-  box-sizing: border-box;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 9px 15px 10px 0;
-}
-
-
+/*.sp-menu__link {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  font-size: 15px;*/
+/*  box-sizing: border-box;*/
+/*  color: #ffffff;*/
+/*  text-decoration: none;*/
+/*  padding: 9px 15px 10px 0;*/
+/*}*/
 
 #sp-menu__check {
   display: none;
