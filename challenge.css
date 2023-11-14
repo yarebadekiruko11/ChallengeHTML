@@ -258,7 +258,6 @@ footer {
 }
 
 
-
 /* 画面サイズが768px以上の時はスマホ用メニューは非表示 */
 @media screen and (min-width: 768px) {
   .sp-menu {
@@ -266,31 +265,50 @@ footer {
   }
 }
 
-
-
+/*画面サイズ767まで*/
 @media screen and (max-width:767px) {
   .pc-menu {
     display: none;
   }
- nav .logo {
+
+  .logo {
    height: 50px;
- }
+  }
+  .hamburger-menu {
+    width: 90%;
+    height: 50px;
+  }
 
-  /* ハンバーガーメニューのボタン */
-.sp-menu {
-   height: 50px;
-   margin: 0 auto;
- }
- #sp-menu__check {
-   display: none;
- }
+  .smenu-btn {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #ec715f;
+    border: 1px solid #ffffff;
+  }
 
- .sp-menu__content {
-   width: 90%;
-   height: 50px;
-   position: relative;
+ .smenu-btn span,
+ .smenu-btn span:before,
+ .smenu-btn span:after {
+   content: '';
+   display: block;
+   height: 3px;
+   width: 25px;
+   border-radius: 3px;
+   background-color: #ffffff;
+   position: absolute;
  }
-
-
+ .smenu-btn span:before {
+   bottom: 8px;
+ }
+ .smenu-btn span:after {
+   top: 8px;
+ }
 
 }
