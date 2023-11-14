@@ -257,6 +257,8 @@ footer {
   align-items: center;
 }
 
+
+
 /* 画面サイズが768px以上の時はスマホ用メニューは非表示 */
 @media screen and (min-width: 768px) {
   .sp-menu {
@@ -288,97 +290,6 @@ footer {
    height: 50px;
    position: relative;
  }
-
-
- .sp-menu__box {
-   position: absolute;  /* 位置を固定 */
-   top: 5px;  /* 最上部
-   right: 5px;  /* 右端 */
-   bottom: 5px;
-   /* 中の要素を上下中央寄せ */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-    /*サイズ指定 */
-   height: 36px;
-   width: 36px;
-   border: 1px solid #FAFAFA;
- }
- /* メニューの白線を疑似要素を使って3本作成 */
- .sp-menu__box span,         /* 真ん中の線 */
- .sp-menu__box span:before,  /* 上の線 */
- .sp-menu__box span:after {  /* 下の線 */
-   /* contentの値を指定しないと疑似要素が生成されない */
-   content: "";
-   /* ３本線のサイズと色を指定 */
-   display: block;
-   height: 3px;
-   width: 20px;
-   border-radius: 2px;
-   background-color: #ffffff;
-   /* 3本線の位置は絶対位置で指定 */
-   position: absolute;
- }
- /* 上の線の位置 */
- .sp-menu__box span:before {
-   /* 真ん中の線と離す距離 */
-   bottom: 8px;
- }
- /* 下の線の位置 */
- .sp-menu__box span:after {
-   /* 真ん中の線と離す距離 */
-   top: 8px;
- }
-
- /* スマホ用メニュー */
-/*.sp-menu__content {*/
-/*  width: 90%;*/
-/*  height: 50px;*/
-  /* 開始位置は左上隅 */
-/*  margin: 0 auto;*/
-  /* 前面に表示するがハンバーガーボタンよりは背後 */
-  /*z-index: 90;*/
-  /*background-color: #3584bb;*/
-/*}*/
-/* スマホ用メニューのリスト */
-/*.sp-menu__list {*/
-/*  padding: 70px 10px 0;*/
-/*}*/
-/* スマホ用メニュー項目 */
-/*.sp-menu__item {*/
-/*  border-bottom: solid 1px #ffffff;*/
-/*  list-style: none;*/
-/*}*/
-/* スマホ用メニュー項目のリンク */
-/*.sp-menu__link {*/
-/*  display: block;*/
-/*  width: 100%;*/
-/*  font-size: 15px;*/
-/*  box-sizing: border-box;*/
-/*  color: #ffffff;*/
-/*  text-decoration: none;*/
-/*  padding: 9px 15px 10px 0;*/
-/*}*/
-
-#sp-menu__check {
-  display: none;
-}
-#sp-menu__check:checked ~ .sp-menu__box span {
-  background: rgba(255, 255, 255, 0);
-}
-#sp-menu__check:checked ~ .sp-menu__box span::before {
-  bottom: 0;
-  transform: rotate(45deg);
-}
-#sp-menu__check:checked ~ .sp-menu__box span::after {
-  top: 0;
-  transform: rotate(-45deg);
-}
-#sp-menu__check:checked ~ .sp-menu__content {
-  left: 0;
-}
-
 
 
 
