@@ -270,6 +270,9 @@ footer {
   .pc-menu {
     display: none;
   }
+  .sp-menu {
+    height: 50px;
+  }
 
   .logo {
    height: 50px;
@@ -277,20 +280,26 @@ footer {
   .hamburger-menu {
     width: 90%;
     height: 50px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  #menu-btn-check {
+    display: none;
   }
 
   .smenu-btn {
-    position: fixed;
-    top: 5px;
-    right: 10px;
+    /*position: relative;*/
+  /*  top: 5px;*/
+  /*  right: 10px;*/
     display: flex;
-    height: 40px;
-    width: 40px;
-    justify-content: center;
+  /*  height: 40px;*/
+  /*  width: 40px;*/
+    margin-left: auto;
     align-items: center;
-    z-index: 90;
-    background-color: #ec715f;
-    border: 1px solid #ffffff;
+    z-index: 100;
+  /*  background-color: #ec715f;*/
+  /*  border: 1px solid #ffffff;*/
   }
 
  .smenu-btn span,
@@ -302,7 +311,7 @@ footer {
    width: 25px;
    border-radius: 3px;
    background-color: #ffffff;
-   position: absolute;
+   /*position: absolute;*/
  }
  .smenu-btn span:before {
    bottom: 8px;
