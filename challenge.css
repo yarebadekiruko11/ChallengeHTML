@@ -296,10 +296,12 @@ footer {
   /*  height: 40px;*/
   /*  width: 40px;*/
     margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     align-items: center;
     z-index: 100;
   /*  background-color: #ec715f;*/
-  /*  border: 1px solid #ffffff;*/
+    border: 1px solid #ffffff;
   }
 
  .smenu-btn span,
@@ -320,4 +322,21 @@ footer {
    top: 8px;
  }
 
+ #main-visual {
+   background-image: url(img/code.png);
+   background-size: 100% 100%;
+   color: #FAFAFA;
+   text-align: center;
+ }
+ .main-visual-main {
+   font-size: 40px;
+ }
+ .main-visual-text {
+   font-size: 18px;
+ }
+
+
+
+
 }
+
