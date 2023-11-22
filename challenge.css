@@ -347,6 +347,29 @@ footer {
  .portfolio-box:nth-child(2), .portfolio-box:nth-child(4) {
    margin: 0 0 10px 0;
  }
+ 
+ .Strengthsecion {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .Strength {
+   width: 320px;
+   height: auto;
+   margin-bottom: 90px;
+ }
+
+ .FeatureIcon {
+   font-size: 60px;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+ }
+
+ .Strength:nth-child(1), .Strength:nth-child(2) {
+   margin-right: 10px;
+ }
 
 
 
