@@ -170,7 +170,7 @@ h4 {
 
 #Profile {
   background-color: #ECEFF1;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
 }
 
@@ -178,7 +178,7 @@ h4 {
   width: 90%;
 }
 .Profilebox {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
 }
 .box {
@@ -271,6 +271,12 @@ footer {
     display: flex;
   }
   .Strengthsecion {
+    display: flex;
+  }
+  #Profile {
+    display: flex;
+  }
+  .Profilebox {
     display: flex;
   }
 
@@ -375,6 +381,25 @@ footer {
    margin: 0 auto;
    margin-bottom: 10px;
  }
+
+ .Profilecontent {
+   width: 90%;
+   margin: 0 auto;
+   padding-bottom: 90px;
+ }
+
+ .Profilebox {
+   text-align: center;
+ }
+ .Profilebox .box {
+   margin: 0 auto;
+ }
+
+ .profileimage {
+   margin-bottom: 20px;
+ }
+
+
 
 
 }
