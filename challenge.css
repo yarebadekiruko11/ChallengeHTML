@@ -283,6 +283,7 @@ footer {
     display: flex;
   }
 
+
 }
 
 /*画面サイズ767まで*/
@@ -400,6 +401,18 @@ footer {
 
  .profileimage {
    margin-bottom: 20px;
+ }
+ .contactbox {
+   text-align: center;
+ }
+ .MailTel {
+   width: 90%;
+   margin: 0 auto;
+ }
+ .SNS {
+   width: 90%;
+   margin:0 auto;
+   padding-top: 20px
  }
 
 
