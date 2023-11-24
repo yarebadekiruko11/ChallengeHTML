@@ -224,7 +224,7 @@ h5 {
 }
 
 .contactbox {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   margin-bottom: 90px;
 }
@@ -277,6 +277,9 @@ footer {
     display: flex;
   }
   .Profilebox {
+    display: flex;
+  }
+  .contactbox {
     display: flex;
   }
 
